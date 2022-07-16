@@ -1,0 +1,263 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+html,body
+{
+    max-width: 100%;
+    max-height: 100%;
+}
+body{
+    background: #D8E5C3;
+    width: 100%;
+    height: 100px;
+}
+
+header{
+    width: 100vw;
+    height: 75px;
+    background: #006830;
+}
+
+.form
+{
+    width: 400px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.card
+{
+    padding: 20px;
+}
+
+.card-top
+{
+    text-align: center;
+}
+
+.btnEntrar-Cadastrar
+{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 63px;
+}
+
+.btnEntrar{
+    width: 103px;
+    height: 30px;
+    font-size: 15px;
+    background: #006830;
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    border-radius: 50px;
+    transition: 1s ease;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 5px #595959;
+}
+
+.btnEntrar:hover
+{
+    background: #009947;
+    border: none solid #FBFBFB;
+    cursor: pointer;
+}
+
+
+.btnEntrar a{
+    color: #FBFBFB;
+}
+
+.btnCadastrar a{
+    color: rgba(0, 0, 0, 0.84);
+}
+
+.btnCadastrar{
+    width: 103px;
+    height: 30px;
+    font-size: 15px;
+    background: #FBFBFB;
+    color: black;
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    border-radius: 50px;
+    transition: 1s ease;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 5px #595959;
+    transition: 1s ease;
+}
+
+.btnCadastrar:hover
+{
+    background: #006830;
+    color: white;
+}
+
+.card-group > input{
+    border-radius: 10px;
+    padding-left: 10px;
+    outline: 0;
+    display: block;
+    margin: 0 auto 10px auto;
+    padding: 8px;
+    font-family: 'Inter' sans-serif;
+}
+
+#esqueciMinhaSenha
+{
+    font-size: 11px;
+}
+
+.imgLogin
+{
+    display: relative;
+    width: 100px;
+    margin:0 auto;
+}
+
+#relembrarSenha
+{
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.relembrarSenha
+{
+    display: flex;
+    justify-content: left;
+    padding-left: 115px;
+    font-size: 11px;
+    align-items: center;
+    color: #656C5C;
+
+}
+
+.relembrarSenha #esqueciMinhaSenha{
+    text-decoration: underline;
+    color: #656C5C;
+    padding-left: 12px;
+}
+
+
+.entrar-link-container
+{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 20px;
+}
+
+.btn-link-entrar a{
+    color: white;
+}
+
+.btn-link-entrar{
+    width: 103px;
+    height: 30px;
+    font-size: 15px;
+    background: #006830;
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    border: none;
+    border-radius: 50px;
+    transition: 1s ease;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 5px #595959;
+}
+
+.btn-link-entrar:hover
+{
+    background: #009947;
+}
+
+.btnEndereco-Contato
+{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 63px;
+    align-items: center;
+}
+
+.btnEndereco{
+    width: 105px;
+    margin-top: 20px;
+    text-align: center;
+    height: 30px;
+    font-size: 12px;
+    background: white;
+    line-height: 7.26px;
+    box-shadow: 0px 3px 5px #595959;
+    color: black;
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s ease;
+}
+
+#enderSvg
+{
+    margin-right: 5px;
+}
+
+.btnContato{
+    width: 105px;
+    margin-top: 20px;
+    text-align: center;
+    height: 30px;
+    font-size: 12px;
+    background: white;
+    line-height: 7.26px;
+    box-shadow: 0px 3px 5px #595959;
+    color: black;
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s ease;
+}
+
+#contaSvg
+{
+    margin-right: 5px;
+}
+
+footer{
+    background: #006830;
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Karla', sans-serif;
+}
+footer a{
+    color: #656C5C;
+    padding: 2px;
+}
